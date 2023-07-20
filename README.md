@@ -1,4 +1,11 @@
-# cashflow
+# Cash Record WebApp
+This is an app about money record, incomes and expenses, made with Vue.js
+
+----
+# Aplicación web de registro de dinero
+Esta es una aplicación sobre registro de dinero, ingresos y gastos, hecha con Vue.js
+
+----
 
 ## Project setup
 ```
