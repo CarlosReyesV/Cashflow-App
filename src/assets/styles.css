@@ -1,0 +1,24 @@
+header {
+    display: flex;
+    justify-content: space-around;
+    align-items: center;
+    width: 55vw;
+    text-align: center;
+}
+.logoIcon{
+    width: 140px;
+}
+.loadingImg{
+    width: 220px;
+}
+.closeIcon,
+span {
+    width: 60px;
+}
+h1 {
+    font-size: 1.9rem;
+    color: var(--brand-dgray);
+}
+h1 span {
+    color: var(--brand-white);
+}
