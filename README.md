@@ -1,9 +1,19 @@
 # Cash Record WebApp
-This is an app about money record, incomes and expenses, made with Vue.js
+Webpage to store money record, made with Vue.js
+
+You can:
+- Save and delete incomes
+- Save and delete expenses
+- See money record via graphic
 
 ----
 # Aplicación web de registro de dinero
-Esta es una aplicación sobre registro de dinero, ingresos y gastos, hecha con Vue.js
+Aplicación de registro de dinero, hecha con Vue.js
+
+Puedes:
+- Guardar y borrar ingresos
+- Guardar y borrar gastos
+- Ver los registros del dinero, por medio de una gráfica
 
 ----
 
