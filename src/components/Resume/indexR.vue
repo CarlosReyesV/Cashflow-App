@@ -70,7 +70,7 @@ h1 {
   justify-content: center;
   align-items: center;
   width: 100%;
-  padding: 48px 24px;
+  padding: 24px;
   box-sizing: border-box;
 }
 </style>

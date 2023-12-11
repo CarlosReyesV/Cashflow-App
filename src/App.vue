@@ -38,6 +38,7 @@ body,
   font-family: Arial, Helvetica, sans-serif;
   zoom: 100%;
 }
+
 * {
   --brand-black: black;
   --brand-white: white;

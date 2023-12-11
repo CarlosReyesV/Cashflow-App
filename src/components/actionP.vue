@@ -9,7 +9,7 @@
         </div>
         <div class="field">
           <label for="">Monto</label>
-          <input type="number" v-model="amount" />
+          <input type="number" v-model="amount" style="text-align: left" />
         </div>
         <div class="field">
           <label for="">Descripción</label>

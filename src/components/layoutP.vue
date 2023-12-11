@@ -1,16 +1,18 @@
 <template>
-  <div class="header">
-    <slot name="header"></slot>
-  </div>
-  <div class="resume">
-    <slot name="resume"></slot>
-  </div>
-  <div class="movements">
-    <div class="head" @click="showMovements = !showMovements">
-      <div class="grip"></div>
+  <div>
+    <div class="header">
+      <slot name="header"></slot>
     </div>
-    <div class="body" v-show="showMovements">
-      <slot name="movements"></slot>
+    <div class="resume">
+      <slot name="resume"></slot>
+    </div>
+    <div class="movements">
+      <div class="head" @click="showMovements = !showMovements">
+        <div class="grip"></div>
+      </div>
+      <div class="body" v-show="showMovements">
+        <slot name="movements"></slot>
+      </div>
     </div>
   </div>
 </template>
@@ -31,12 +33,12 @@ const showMovements = ref(false);
   box-sizing: border-box;
 }
 .header {
-  position: fixed;
+  /* position: fixed; */
   width: 100vw;
 }
-.resume {
+/* .resume {
   min-height: 100vh;
-}
+} */
 .movements {
   z-index: 1;
   position: absolute;
@@ -45,7 +47,8 @@ const showMovements = ref(false);
   width: 100vw;
   background-color: white;
   box-shadow: 0 -8px 16px #e5e5e5;
-  border-radius: 24px;
+  border-top-right-radius: 24px;
+  border-top-left-radius: 24px;
 }
 .movements .head {
   display: flex;
